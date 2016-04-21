@@ -1,0 +1,60 @@
+"****************************************************************** Part A"
+"  Project name"	"global"
+"     Run Style"	"repe"
+"         Basic"	"biffit"	"/eos/tigerlly/global/"
+"          Rain"	"trmmrt"	"/eos/tigerlly/data/trmmrt/"
+"           PET"	"bibimo"	"/eos/tigerlly/data/bibimo/"
+"        Export"	"biffit"	"/eos/tigerlly/global/exportrt/"
+"     Discharge"	"column"	"*"
+"****************************************************************** Part B"
+" Sub basin Num"	2
+"   Sub basin 1"	"Null"
+"   Sub basin 2"	"Null"
+"****************************************************************** Part C"
+"     Time Step"	"h"	3
+"    Date Begin"	"2002020100"	"no"
+"     Date Warm"	"2002020100"
+"     Date  End"	"2009010100"	"no"
+"****************************************************************** Part D"
+" Parameter Num"	17
+	   "coeM"	1	100	"yes"	58.89378
+	   "expM"	0.2	0.9	"yes"	0.250493
+	  "River"	0.1	3	"yes"	0.728891
+	  "Under"	0.01	1	"yes"	0.627904
+	  "LeakO"	0.1	1	"yes"	0.414064
+	  "LeakI"	0.01	0.5	"yes"	0.215441
+	     "Th"	10	100	"yes"	47.994263
+	     "GM"	0.5	2	"yes"	1.185728
+	    "pWm"	10	300	"yes"	129.945648
+	     "pB"	0.05	1.5	"yes"	0.481379
+	    "pIM"	0	10	"yes"	7.020292
+	    "pKE"	0.1	2	"yes"	0.845182
+	    "pFc"	1	10	"yes"	2.839552
+	    "iWU"	1	100	"yes"	64.758949
+	    "iSO"	1	10	"yes"	5.383273
+	    "iSU"	1	50	"yes"	16.072227
+	  "AreaC"	0.5	1.5	"no"	1.0
+"****************************************************************** Part E"
+"  Exit Numbers"	0
+"RCorLL, ClipRe"	"no"	"no"
+"****************************************************************** Part F"
+"      Min NSCE"	0
+" Max BiasP (%)"	100
+"     Basic run"	100
+"         Top N"	10
+"      Criteria"	0.02
+"****************************************************************** Part G"
+"          Rain"	"no"
+"           PET"	"no"
+"          actE"	"no"
+"        Runoff"	"no"
+"          Soil"	"no"
+"        OneExc"	"no"
+"        TwoExc"	"no"
+"        OneSto"	"no"
+"        TwoSto"	"no"
+"****************************************************************** Part H"
+"    Level Num "	7
+"    Level Mark"	1	2	3	4	5	6	7
+"****************************************************************** Part I"
+"End Mark Check"	"eof"
